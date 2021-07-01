@@ -56,3 +56,8 @@ def transliterate(logoi):
             transliteration_list[index] = word[0].upper() + word[1:]
     transliteration = ' '.join(transliteration_list)
     return transliteration
+
+
+if __name__ == "__main__":
+    print(transliterate(input("Paste greek here: ")))
+
